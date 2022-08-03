@@ -1,0 +1,26 @@
+.skill-job-wrapper{
+    display:flex;
+    width: 100%;
+}
+.jobs-wrapper{
+    width: 55%;
+    float: left;
+}
+
+.skills-wrapper{
+    width: 45%;
+}
+
+@media only screen and (max-width:800px) {
+    .skill-job-wrapper{
+        display: block;
+    }
+    .jobs-wrapper{
+        width: 100%;
+    }
+    .skills-wrapper{
+        display:none ;
+    }
+
+}
+
