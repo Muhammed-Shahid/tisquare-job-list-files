@@ -47,13 +47,14 @@ function Hamburger() {
 
 
     <div onClick={clickHamIcon} className="hamburgerIconContainer">
-      <img src={process.env.PUBLIC_URL + 'hamburgerIcon.png'} alt="" />
+      
+      <img className='hamburgerIcon' src={process.env.PUBLIC_URL + 'hamburgerIcon.png'} alt="menu" />
     </div>
     </div>
     
 { hamState &&
     <div className="hamburgerMenuContainer">
-    <ul className="nav-links" >
+    <ul className="hamNav-links" >
              
              
                <li>
@@ -67,7 +68,7 @@ function Hamburger() {
                  <a className='hamMenuLink' href="/jobs">Vacancies</a>
                </li>
                <li>
-                 <a className='hamMenuLink' href="/">Contact</a>
+                 <a className='hamMenuLink' href="/contact">Contact</a>
                </li>
            
            </ul>

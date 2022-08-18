@@ -1,7 +1,5 @@
-import axios from "axios";
 import "./CardComponents.css";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import db from "../../Firebase/Firebase";
 import { Card, Button } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
@@ -71,14 +69,14 @@ function CardComponents() {
                   <br />
 
                   <div className="salaryDiv">
-                    <p style={{ maxWidth: "200px" }}>
+                 {obj.salary_from.length>0 &&   <p style={{ maxWidth: "200px" }}>
                       <img
                         src={process.env.PUBLIC_URL + "/icon_salary.png"}
                         style={{ width: "20px", marginRight: "5px" }}
                         alt="salary"
                       />
                       Rs {obj.salary_from} - {obj.salary_to}
-                    </p>
+                    </p>}
                   </div>
 
                   <div className="applyBtn">

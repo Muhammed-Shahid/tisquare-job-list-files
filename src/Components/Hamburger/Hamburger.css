@@ -1,10 +1,16 @@
 .hamburgerContainer{
     display: flex;
     justify-content: space-between;
+    height: fit-content;
 }
 .hamburgerIconContainer{
-    max-width: 30px;
+    max-width: fit-content;
     margin-left: auto;
+    padding-right: 20px;
+}
+.hamburgerIcon{
+    cursor: pointer;
+    max-width: 30px;
 }
 
 .hamburgerMenuContainer{
@@ -13,13 +19,26 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+
     
-    
+}
+
+.hamNav-links{
+  
+    height: 100%;
+    line-height: 60px;
 }
 
 .hamMenuLink{
     text-decoration: none;
     color: white;
     margin-top: 10px;
+    
+}
+
+@media only screen and (max-width:400px) {
+    .hamburgerIconContainer{
+        margin-right: 10px;
+    }
 }
 

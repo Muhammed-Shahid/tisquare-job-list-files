@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Hamburger from "../Hamburger/Hamburger";
 
 function NavBar() {
   
@@ -19,7 +20,8 @@ function NavBar() {
   }, []);
   return (
     <div>
-      <div className="headerDiv">
+
+    { dimensions.width>851 ? <div className="headerDiv">
         {/* NAV */}
         <a style={{ textDecoration: "none", color: "white" }} href="/">
           <div className="logoDiv">TriSquare</div>
@@ -40,9 +42,18 @@ function NavBar() {
               About
             </button>
           </Link>
+
+          <Link 
+          to={"/contact"}>
+            <button type="button" className="switchBtn">
+              Contact
+            </button>
+          </Link>
         </div>
         {/* NAV END */}
-      </div>
+      </div> :
+      <Hamburger/>
+      }
     </div>
   );
 }

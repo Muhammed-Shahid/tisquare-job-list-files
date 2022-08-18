@@ -53,12 +53,12 @@ function NavPrimary() {
     window.addEventListener("resize", handleResize, false);
   }, []);
 
-  console.log(dimensions);
+  
 
   // Dimensions
 
   function changeNavStyleOnScroll() {
-    navContainerStyle.backdropFilter = "blur(100px)";
+    navContainerStyle.backdropFilter = "blur(15px)";
     navContainerStyle.transition = "background 0.5s ease 0s";
   }
 
@@ -105,7 +105,7 @@ function NavPrimary() {
                     </a>
                   </li>
                   <li>
-                    <a style={navLinksStyle} href="/">
+                    <a style={navLinksStyle} href="/contact">
                       Contact
                     </a>
                   </li>
@@ -119,7 +119,7 @@ function NavPrimary() {
                   }}
                   className="icon"
                 >
-                  <img src={process.env.PUBLIC_URL + "/facebook.svg"} />
+                  <img src={process.env.PUBLIC_URL + "/facebook.svg"} alt='fb' />
                 </div>
 
                 <div
@@ -128,7 +128,7 @@ function NavPrimary() {
                   }}
                   className="icon"
                 >
-                  <img src={process.env.PUBLIC_URL + "/twitter.svg"} />
+                  <img src={process.env.PUBLIC_URL + "/twitter.svg"}  alt='twtr'/>
                 </div>
                 <div
                   onClick={() => {
@@ -136,7 +136,7 @@ function NavPrimary() {
                   }}
                   className="icon"
                 >
-                  <img src={process.env.PUBLIC_URL + "/instagram.svg"} />
+                  <img src={process.env.PUBLIC_URL + "/instagram.svg"} alt='insta' />
                 </div>
               </div>
             </div>

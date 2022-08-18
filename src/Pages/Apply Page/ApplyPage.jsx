@@ -4,7 +4,7 @@ import db from "../../Firebase/Firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { Card, Button } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import ContactForm from "../../Components/ContactForm/ContactForm";
+import ApplicationForm from "../../Components/ApplicationForm/applicationForm";
 import NavBar from "../../Components/NavBar/NavBar";
 
 function ApplyPage() {
@@ -74,7 +74,7 @@ function ApplyPage() {
 
 
         <div className="formContainer">
-        {jobData &&  <ContactForm  job_title={jobData.job_title} company_name={jobData.company_name} />}
+        {jobData &&  <ApplicationForm  job_title={jobData.job_title} company_name={jobData.company_name} />}
         </div>
       </div>
     </div>

@@ -9,19 +9,19 @@ function Footer() {
       <div className=" col-sm-4 col-md col-sm-4  col-12 col">
         <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
         {/*headin5_amrc*/}
-        <p className="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        <p><i className="fa fa-location-arrow" /> 9878/25 sec 9 rohini 35 </p>
+        
+        <p><i className="fa fa-location-arrow" /> Dubai, UAE</p>
         <p><i className="fa fa-phone" />  +91-9999878398</p>
-        <p><i className="fa fa fa-envelope" /> trisquare.engg@gmail.com</p>
+        <a href="mailto:trisquare.engg@gmail.com"> <p><i className="fa fa fa-envelope" /> trisquare.engg@gmail.com</p></a>
       </div>
  
       <div className=" col-sm-4 col-md  col-6 col">
         <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
         {/*headin5_amrc*/}
         <ul className="footer_ul_amrc">
-          <li><a href="http://webenlance.com">Careers</a></li>
-          <li><a href="http://webenlance.com">About Us</a></li>
-          <li><a href="http://webenlance.com">Contact</a></li>
+          <li><a href="/jobs">Careers</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
     
         </ul>
         {/*footer_ul_amrc ends here*/}

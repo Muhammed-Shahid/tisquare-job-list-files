@@ -74,82 +74,86 @@ function LandingPage() {
           </div>
           <div className="servicesBottom">
             {serviceBtnState ? (
-              <div className="servicesList">
-                <ul className="serviceCard-wrapper">
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={process.env.PUBLIC_URL + "/jobService.jpg"}
-                      alt
-                    />
-                    <h3>
-                      <a href>Part Time Job Opprtunities</a>
-                    </h3>
-                  </li>
+        
 
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={
-                        process.env.PUBLIC_URL + "/careerGuidanceService.jpg"
-                      }
-                      alt
-                    />
-                    <h3>
-                      <a href>Career Guidance</a>
-                    </h3>
-                  </li>
-
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={process.env.PUBLIC_URL + "/3dMOdellingService.svg"}
-                      alt
-                    />
-                    <h3>
-                      <a href>Skill Development</a>
-                    </h3>
-                  </li>
-                </ul>
+              <div className="cards">
+             
+              <div className="abtServiceCard card-4">
+                <div className="card__icon">
+                <i class="fa-solid fa-briefcase"></i>
+                </div>
+             
+                <h2 className="card__title">
+                Part Time Job Opprtunities
+                </h2>
+              
               </div>
+              <div className="abtServiceCard card-5">
+                <div className="card__icon">
+                <i class="fas fa-chart-line"></i>
+                </div>
+             
+                <h2 className="card__title">
+                Career Guidance
+                </h2>
+               
+              </div>
+              <div className="abtServiceCard card-1">
+                <div className="card__icon">
+                <i class="fa-solid fa-gears"></i>
+                </div>
+                
+                <h2 className="card__title">
+                Skill Development
+                </h2>
+               
+              </div>
+            </div>
             ) : (
-              <div className="servicesList">
-                <ul className="serviceCard-wrapper">
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={process.env.PUBLIC_URL + "/recruitService.jpg"}
-                      alt
-                    />
-                    <h3>
-                      <a href>Recruitment</a>
-                    </h3>
-                  </li>
-
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={process.env.PUBLIC_URL + "/cadService.svg"}
-                      alt
-                    />
-                    <h3>
-                      <a href>CAD Services</a>
-                    </h3>
-                  </li>
-
-                  <li className="serviceCard">
-                    <img
-                      className="img"
-                      src={process.env.PUBLIC_URL + "/3dMOdellingService.svg"}
-                      alt
-                    />
-                    <h3>
-                      <a href>3D Modelling</a>
-                    </h3>
-                  </li>
-                </ul>
+              <div className="cards">
+              <div className="abtServiceCard card-1">
+                <div className="card__icon">
+                <i class="fas fa-plane-departure"></i>
+                </div>
+              
+                <h2 className="card__title">
+                Recruitment
+                </h2>
+             
               </div>
+              <div className="abtServiceCard card-2">
+                <div className="card__icon">
+                <i class="far fa-map"></i>
+                </div>
+            
+                <h2 className="card__title">
+                CAD Services
+                </h2>
+               
+              </div>
+              <div className="abtServiceCard card-3">
+                <div className="card__icon">
+                <i class="fa-brands fa-unity"></i>
+                </div>
+             
+                <h2 className="card__title">3D Modelling</h2>
+             
+              </div>
+            
+            </div>
             )}
+          </div>
+        </section>
+
+        <section className="vacncies">
+        <div className="vacnciesContainer">
+            <div className="vacanciesLeft">
+
+            </div>
+
+            <div className="vacanciesRight">
+              
+            </div>
           </div>
         </section>
       </div>

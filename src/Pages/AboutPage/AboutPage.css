@@ -1,7 +1,7 @@
 .abtBanner {
   height: 60vh;
   width: 100%;
-  background-image: url("/public/rail.jpg");
+  background-image: url("/public/rail.webp");
   background-position: center;
   padding: 50px;
 }
@@ -68,7 +68,7 @@
 
 /* HEADING */
 
-.heading {
+.abtServiceHeading {
   text-align: center;
 }
 

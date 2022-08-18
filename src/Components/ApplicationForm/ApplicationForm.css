@@ -724,7 +724,7 @@ input {
   
 }
 
-.card-5 {
+.applicationCard-5 {
   background:linear-gradient(to right, #2472fcff ,#8711c1ff);
 
   -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
@@ -732,7 +732,7 @@ input {
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-.card-5 .card-heading {
+.applicationCard-5 .card-heading {
   padding: 20px 0;
 
   -webkit-border-top-left-radius: 10px;
@@ -743,7 +743,7 @@ input {
   border-top-right-radius: 10px;
 }
 
-.card-5 .card-body {
+.applicationCard-5 .card-body {
   padding: 52px 85px;
   padding-bottom: 73px;
   background:linear-gradient(to right, #2472fcff ,#8711c1ff);
@@ -782,7 +782,7 @@ input {
  
 }
 @media (max-width: 767px) {
-  .card-5 .card-body {
+  .applicationCard-5 .card-body {
     padding: 40px 30px;
     padding-bottom: 50px;
   }

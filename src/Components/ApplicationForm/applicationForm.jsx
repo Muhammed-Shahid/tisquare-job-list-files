@@ -1,10 +1,10 @@
 import React, { useState,useEffect } from "react";
-import "./ContactForm.css";
+import "./ApplicationForm.css";
 import sendEmail from "../../email_js";
 import Modal from "react-modal";
-import NavBar from "../NavBar/NavBar";
 
-function ContactForm(props) {
+
+function ApplicationForm(props) {
   const [email, setEmail] = useState([]);
   const [phone, setPhone] = useState([]);
   const [visaType, setVisaType] = useState("visiting");
@@ -44,7 +44,7 @@ function ContactForm(props) {
     <div>
     
     <div className="page-wrapper  p-t-45 ">
-      <div className="card card-5">
+      <div className="card applicationCard-5">
         <div className="card-heading">
           <h2 className="applicationFormTitle">Application Form</h2>
         </div>
@@ -178,4 +178,4 @@ function ContactForm(props) {
   );
 }
 
-export default ContactForm;
+export default ApplicationForm;
