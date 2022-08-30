@@ -145,18 +145,24 @@ function LandingPage() {
           </div>
         </section>
 
-        <section className="vacncies">
+        <section className="vacancies">
         <div className="vacnciesContainer">
             <div className="vacanciesLeft">
+                <h2>Explore New Opportunities</h2>
+                 <br />
+                 <br />
 
+                <h3>We bring you new carrier opportunities <br /> and help you scale up your life.</h3>
             </div>
 
             <div className="vacanciesRight">
-              
+         <a href="/jobs">   <button  class="button-86" role="button">See Vacancies</button> </a>
+
             </div>
           </div>
         </section>
       </div>
+  
       <Footer/>
     </div>
   );

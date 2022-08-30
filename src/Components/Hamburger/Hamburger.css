@@ -6,7 +6,7 @@
 .hamburgerIconContainer{
     max-width: fit-content;
     margin-left: auto;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 .hamburgerIcon{
     cursor: pointer;

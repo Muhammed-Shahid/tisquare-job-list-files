@@ -11,7 +11,7 @@ function Footer() {
         {/*headin5_amrc*/}
         
         <p><i className="fa fa-location-arrow" /> Dubai, UAE</p>
-        <p><i className="fa fa-phone" />  +91-9999878398</p>
+        <p><i className="fa fa-phone" />+91-9999878398</p>
         <a href="mailto:trisquare.engg@gmail.com"> <p><i className="fa fa fa-envelope" /> trisquare.engg@gmail.com</p></a>
       </div>
  
@@ -30,9 +30,9 @@ function Footer() {
         <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
         {/*headin5_amrc ends here*/}
         <ul className="footer_ul2_amrc">
-          <li><a href="www.linkedin.com"><i className="fab fa-linkedin fleft padding-right" /> </a><p><a href="#">https://www.lipsum.com/</a></p></li>
-          <li><a href="www.facebook.com"><i className="fab fa-facebook fleft padding-right" /> </a><p><a href="#">https://www.lipsum.com/</a></p></li>
-          <li><a href="www.twitter.com"><i className="fab fa-twitter fleft padding-right" /> </a><p><a href="#">https://www.lipsum.com/</a></p></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/tri-square-engineering-services/"><i className="fab fa-linkedin fleft padding-right" /> </a><p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/tri-square-engineering-services/">LinkedIn</a></p></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100084552544128"><i className="fab fa-facebook fleft padding-right" /> </a><p><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100084552544128">Facebook</a></p></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/trisquare_engg/"><i className="fab fa-twitter fleft padding-right" /> </a><p><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/trisquare_engg/">Instagram</a></p></li>
         </ul>
         {/*footer_ul2_amrc ends here*/}
       </div>
@@ -47,12 +47,12 @@ function Footer() {
     </ul>
     {/*foote_bottom_ul_amrc ends here*/}
     <p className="text-center">Copyright @2022 | Designed by Trisquare Engg</p>
-    <ul className="social_footer_ul">
+    {/* <ul className="social_footer_ul">
       <li><a href="http://webenlance.com"><i className="fab fa-facebook-f" /></a></li>
       <li><a href="http://webenlance.com"><i className="fab fa-twitter" /></a></li>
       <li><a href="http://webenlance.com"><i className="fab fa-linkedin" /></a></li>
       <li><a href="http://webenlance.com"><i className="fab fa-instagram" /></a></li>
-    </ul>
+    </ul> */}
     {/*social_footer_ul ends here*/}
   </div>
 </footer>

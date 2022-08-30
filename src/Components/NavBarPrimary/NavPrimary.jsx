@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import Hamburger from "../Hamburger/Hamburger";
 
 function NavPrimary() {
-  const redirectToSocialMedia = async (link) => {
-    window.location.href = `https://www.${link}`;
-  };
+
+
 
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
@@ -112,7 +111,7 @@ function NavPrimary() {
                 </div>
               </ul>
 
-              <div className="socialIcons">
+              {/* <div className="socialIcons">
                 <div
                   onClick={() => {
                     redirectToSocialMedia("facebook.com");
@@ -138,7 +137,7 @@ function NavPrimary() {
                 >
                   <img src={process.env.PUBLIC_URL + "/instagram.svg"} alt='insta' />
                 </div>
-              </div>
+              </div> */}
             </div>
           </nav>
         ) : (
