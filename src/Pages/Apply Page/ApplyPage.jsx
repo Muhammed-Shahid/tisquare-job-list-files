@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./ApplyPage.css";
 import db from "../../Firebase/Firebase";
 import { doc, getDoc } from "firebase/firestore";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import ApplicationForm from "../../Components/ApplicationForm/applicationForm";
 import NavBar from "../../Components/NavBar/NavBar";
@@ -14,7 +14,7 @@ function ApplyPage() {
   useEffect(() => {
     data = location.state.jobId;
     getData(data);
-    console.log(data);
+    console.log('id: ',data);         //data is id 
   }, []);
 
   const getData = async (data) => {
@@ -24,7 +24,7 @@ function ApplyPage() {
     });
   };
 
-  console.log(jobData);
+  
   return (
     <div>
       <NavBar/>
@@ -74,7 +74,7 @@ function ApplyPage() {
 
 
         <div className="formContainer">
-        {jobData &&  <ApplicationForm  job_title={jobData.job_title} company_name={jobData.company_name} />}
+        {jobData &&  <ApplicationForm  job_title={jobData.job_title} company_name={jobData.company_name} jobId={data}/>}
         </div>
       </div>
     </div>

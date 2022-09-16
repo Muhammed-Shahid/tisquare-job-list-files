@@ -154,6 +154,10 @@ function ApplicationForm(props) {
               </div>
             </div>
 
+            <div className="form-row p-t-20">
+              <p className="warningText" >Take a screenshot of the result of your typing test  and mail it to <a className="warningText-link" href="mailto:trisquare.engg@gmail.com">trisquare.engg@gmail.com</a></p>
+            </div>
+
             <div>
               <button className="btn btn--radius-2 " type="submit">
                 Apply

@@ -801,6 +801,26 @@ input {
 
 }
 
+.warningText{
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+  
+}
+
+.warningText-link{
+  color: rgb(10, 199, 158);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
 /* CSS */
 .button-63 {
   
