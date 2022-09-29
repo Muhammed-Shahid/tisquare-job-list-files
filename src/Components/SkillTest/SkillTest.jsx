@@ -1,9 +1,4 @@
 import React from "react";
-import "./SkillTest.css";
-import { useState } from "react";
-import { collection, getDoc } from "firebase/firestore";
-import db from "../../Firebase/Firebase";
-import { Row, Col } from "react-bootstrap";
 import TypingTest from "../../Games/TypingTest/TypingTest";
 
 function SkillTest() {

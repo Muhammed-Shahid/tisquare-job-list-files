@@ -9,6 +9,8 @@
 
 .skills-wrapper{
     width: 45%;
+    margin-top: 50px;
+    max-height: 90vh;
 }
 
 @media only screen and (max-width:800px) {
