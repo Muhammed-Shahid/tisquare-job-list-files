@@ -1,11 +1,8 @@
 import emailjs from "emailjs-com";
 
- // const serviceId = "service_rh1n9hr";
- const serviceId='service_bw5trls'
- // const templateId = "template_q9jn62f";
- const templateId='template_qrhksh8'
- // const publicKey = "Ihq_Z6r2ep5EXazCi";
- const publicKey='gVXj2ObYvb150nD9d'
+const serviceId = "service_rh1n9hr";
+const templateId = "template_1i5qdjs";
+const publicKey = "Ihq_Z6r2ep5EXazCi";
 
 
 const sendEmail = async (
