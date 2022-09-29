@@ -31,24 +31,29 @@ function ProductsPage() {
         </div>
 
         {dimensions.width > 900 ? (
-          <div className="skills-wrapper">
+          <div className="skills-externalJobs-wrapper">
             <div className="externalJobs">
               <h2>More job opportunities from external sources</h2>
               <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"  download>
                 <button className="addBtn btn btn-primary">
                 Download File
                 </button>
-                
-              </a>
+                 </a>
+
             </div>
-            <SkillTest />
+            <div className="skills-wrapper">
+           <h2>Test Your Skills And Win More Jobs !! </h2>
+          <a href="/skill_test"> <button className="addBtn btn btn-primary">
+                Take Your Typing Speed Test
+                </button> </a>
+            </div>
           </div>
         ) : (
           <div className="skills-mobile">
                     <div className="externalJobs">
               <h2>More job opportunities from external sources</h2>
               <a href="../../../src/dailyJobVacancies-28-09-2022.pdf"  download>
-                <button>
+              <button className="addBtn btn btn-primary">
                 Download File
                 </button>
                 

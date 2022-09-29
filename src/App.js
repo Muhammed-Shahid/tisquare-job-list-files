@@ -7,6 +7,7 @@ import LandingPage from "./Pages/Landing Page/LandingPage";
 import ApplyPage from "./Pages/Apply Page/ApplyPage";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
+import SkillTest from "./Components/SkillTest/SkillTest";
 
 
 
@@ -24,7 +25,8 @@ function App() {
         <Route exact path="application" element={<ApplyPage/>} />
         <Route exact path="about" element={<AboutPage/>} />
         <Route exact path="contact" element={<ContactPage/>} />
-
+        <Route exact path="skill_test" element={<SkillTest/>} />
+        
         
       </Routes>
     </div>

@@ -7,12 +7,14 @@
     float: left;
 }
 
-.skills-wrapper{
+.skills-externalJobs-wrapper{
     width: 45%;
     margin-top: 50px;
     max-height: 90vh;
 }
-
+.skills-wrapper{
+    margin-top: 100px;
+}
 @media only screen and (max-width:800px) {
     .skill-job-wrapper{
         display: block;
@@ -20,7 +22,7 @@
     .jobs-wrapper{
         width: 100%;
     }
-    .skills-wrapper{
+    .skills-externalJobs-wrapper{
         display:none ;
     }
 

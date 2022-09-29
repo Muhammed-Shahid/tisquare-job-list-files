@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import Footer from '../../Components/Footer/Footer'
 import { quotesArray, random, allowedKeys } from './Helper'
 import ItemList from './ItemList'
 import './TypingTest.css'
@@ -96,31 +97,72 @@ const TypingTest = () => {
 		[ ended, wpm ]
 	)
 	useEffect(() => {
-		const stroedScore = localStorage.getItem('wpm')
-		if (stroedScore) setLastScore(stroedScore)
+		const storedScore = localStorage.getItem('wpm')
+		if (storedScore) setLastScore(storedScore)
 	}, [])
 
 	return (
 		<div className="App">
 			<div className="container-fluid pt-4">
-				<div className=""> {/* className='row' */}
-				
-				
+				<div className="row">
+					{/* Left */}
+					<div className="col-sm-6 col-md-2 order-md-0 px-5">
+						<ul className="list-unstyled text-center small">
+							<ItemList
+								name="WPM"
+								data={wpm}
+								style={
+									wpm > 0 && wpm < 20 ? (
+										{ color: 'white', backgroundColor: '#eb4841' }
+									) : wpm >= 20 && wpm < 40 ? (
+										{ color: 'white', backgroundColor: '#f48847' }
+									) : wpm >= 40 && wpm < 60 ? (
+										{ color: 'white', backgroundColor: '#ffc84a' }
+									) : wpm >= 60 && wpm < 80 ? (
+										{ color: 'white', backgroundColor: '#a6c34c' }
+									) : wpm >= 80 ? (
+										{ color: 'white', backgroundColor: '#4ec04e' }
+									) : (
+										{}
+									)
+								}
+							/>
+							<ItemList name="CPM" data={cpm} />
+							<ItemList name="Last Score" data={lastScore} />
+						</ul>
+					</div>
 					{/* Body */}
 					<div className="col-sm-12 col-md-8 order-md-1">
-						<div className="container pt-0">
+						<div className="container">
 							<div className="text-center mt-4 header">
 								<h1>How Fast Can You Type?</h1>
-								<p className="lead">
-									Take the one-minute Typing speed test and win more jobs!
-									
-								</p>
+								
 
 								<div className="alert alert-danger" role="alert">
-									Just start typing and don't use <b>backspace</b> to correct your mistakes
+									Just start typing and don't use <b>backspace</b> to correct your mistakes. Your
+									mistakes will be marked in <u>Red</u> color and shown below the writing box. Good
+									luck!
 								</div>
 
-							
+								<div className="control my-5">
+									{ended ? (
+										<button
+											className="btn btn-outline-danger btn-circle"
+											onClick={() => window.location.reload()}
+										>
+											Reload
+										</button>
+									) : started ? (
+										<button className="btn btn-circle btn-outline-success" disabled>
+											Hurry
+										</button>
+									) : (
+										<button className="btn btn-circle btn-outline-success" onClick={handleStart}>
+											GO!
+										</button>
+									)}
+									<span className="btn-circle-animation" />
+								</div>
 							</div>
 
 							{ended ? (
@@ -145,39 +187,30 @@ const TypingTest = () => {
 								</div>
 							)}
 
-							<div className="p-4 mt-4 bg-dark text-light rounded lead" style={{userSelect:"none"}} ref={outputRef} />
+							<div className="p-4 mt-4 bg-dark text-light rounded lead" ref={outputRef} />
 
-							<div className="control my-5">
-									{ended ? (
-										<button
-											className="btn btn-outline-danger btn-circle"
-											onClick={() => window.location.reload()}
-										>
-											Reload
-										</button>
-									) : started ? (
-										<button className="btn btn-circle btn-outline-success" disabled>
-											Hurry
-										</button>
-									) : (
-										<button className="btn btn-circle btn-outline-success" onClick={handleStart}>
-											START
-										</button>
-									)}
-									<span className="btn-circle-animation" />
-								</div>
-
-							{/* <h6 className="mt-5">Tip!</h6>
+							<h6 className="mt-5">Tip!</h6>
 							<ul>
 								<li>
 									Word Per Minute (WPM) is measured by calculating how many words you can type in 1
 									minute.
 								</li>
 								<li>Character Per Minute (CPM) calculates how many characters are typed per minute.</li>
-						
-							</ul> */}
+								<li>
+									The top typing speed was achieved by{' '}
+									<a
+										href="https://en.wikipedia.org/wiki/Typing#Alphanumeric_entry"
+										rel="noopener noreferrer"
+										target="_blank"
+									>
+										Stella Pajunas
+									</a>{' '}
+									in 1946, whereas Mrs. Barbara Blackburn has averaged 150 wpm in 50 minutes and her
+									top speed was 212 wpm.
+								</li>
+							</ul>
 							<hr className="my-4" />
-							{/* <div className="mb-5">
+							<div className="mb-5">
 								<h6 className="py-2">Average Typing Speeds</h6>
 								<div className="d-flex text-white meter-gauge">
 									<span className="col" style={{ background: '#eb4841' }}>
@@ -196,39 +229,12 @@ const TypingTest = () => {
 										80 - 100+ Top
 									</span>
 								</div>
-							</div> */}
+							</div>
 						</div>
 					</div>
-                        
-							{/* Left */}
-					<div  className="firstResultBox col-sm-12 col-md-6 order-md-0 px-5">
-						<ul style={{display:'flex',justifyContent:'space-between'}} className="list-unstyled text-center small">
-							<ItemList
-								name="WPM"
-								data={wpm}
-								style={
-									wpm > 0 && wpm < 20 ? (
-										{ color: 'white', backgroundColor: '#eb4841' }
-									) : wpm >= 20 && wpm < 40 ? (
-										{ color: 'white', backgroundColor: '#f48847' }
-									) : wpm >= 40 && wpm < 60 ? (
-										{ color: 'white', backgroundColor: '#ffc84a' }
-									) : wpm >= 60 && wpm < 80 ? (
-										{ color: 'white', backgroundColor: '#a6c34c' }
-									) : wpm >= 80 ? (
-										{ color: 'white', backgroundColor: '#4ec04e' }
-									) : (
-										{}
-									)
-								}
-							/>
-							<ItemList name="CPM" data={cpm} />
-							<ItemList name="Last Score" data={lastScore} />
-						</ul>
-					</div>
 
-					<div className="col-sm-12 col-md-6 order-md-2 px-5">
-						<ul style={{display:'flex',justifyContent:'space-between'}} className="list-unstyled text-center small">
+					<div className="col-sm-6 col-md-2 order-md-2 px-5">
+						<ul className="list-unstyled text-center small">
 							<ItemList name="Timers" data={duration} />
 							<ItemList name="Errors" data={errorIndex} />
 							<ItemList name="Acuracy" data={accuracy} symble="%" />
@@ -238,6 +244,7 @@ const TypingTest = () => {
 
 			
 			</div>
+			<Footer/>
 		</div>
 	)
 }
