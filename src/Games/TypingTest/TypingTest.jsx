@@ -146,21 +146,21 @@ const TypingTest = () => {
 								<div className="control my-5">
 									{ended ? (
 										<button
-											className="btn btn-outline-danger btn-circle"
+											className="typingTestBtn typingTestBtn-outline-danger typingTestBtn-circle"
 											onClick={() => window.location.reload()}
 										>
 											Reload
 										</button>
 									) : started ? (
-										<button className="btn btn-circle btn-outline-success" disabled>
+										<button className="typingTestBtn typingTestBtn-circle typingTestBtn-outline-success" disabled>
 											Hurry
 										</button>
 									) : (
-										<button className="btn btn-circle btn-outline-success" onClick={handleStart}>
+										<button className="typingTestBtn typingTestBtn-circle typingTestBtn-outline-success" onClick={handleStart}>
 											GO!
 										</button>
 									)}
-									<span className="btn-circle-animation" />
+									<span className="typingTestBtn-circle-animation" />
 								</div>
 							</div>
 
