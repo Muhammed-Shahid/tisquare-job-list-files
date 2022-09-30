@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import Footer from '../../Components/Footer/Footer'
 import { quotesArray, random, allowedKeys } from './Helper'
 import ItemList from './ItemList'
 import './TypingTest.css'
@@ -244,7 +243,7 @@ const TypingTest = () => {
 
 			
 			</div>
-			<Footer/>
+			
 		</div>
 	)
 }

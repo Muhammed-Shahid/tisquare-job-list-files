@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardComponents from "../../Components/CardComponents/CardComponents";
 import Footer from "../../Components/Footer/Footer";
 import NavBar from "../../Components/NavBar/NavBar";
-import SkillTest from "../../Components/SkillTest/SkillTest";
-import '../../../src/dailyJobVacancies-28-09-2022.pdf' 
+
 import "./ProductsPage.css";
 
 function ProductsPage() {
@@ -33,10 +32,16 @@ function ProductsPage() {
         {dimensions.width > 900 ? (
           <div className="skills-externalJobs-wrapper">
             <div className="externalJobs">
-              <h2>More job opportunities from external sources</h2>
-              <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"  download>
+              <h2>Other Daily Job Opportunities</h2>
+              <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing" download>
                 <button className="addBtn btn btn-primary">
-                Download File
+                29-09-2022
+                </button>
+                 </a>
+                    <br />
+                 <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
+                 <button className="addBtn btn btn-primary">
+                30-09-2022
                 </button>
                  </a>
 
@@ -51,13 +56,18 @@ function ProductsPage() {
         ) : (
           <div className="skills-mobile">
                     <div className="externalJobs">
-              <h2>More job opportunities from external sources</h2>
-              <a href="../../../src/dailyJobVacancies-28-09-2022.pdf"  download>
-              <button className="addBtn btn btn-primary">
-                Download File
+                    <h2>Other Daily Job Opportunities</h2>
+              <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"  download>
+                <button className="addBtn btn btn-primary">
+                29-09-2022
                 </button>
-                
-              </a>
+                 </a>
+                    <br />
+                 <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
+                 <button className="addBtn btn btn-primary">
+                 30-09-2022
+                </button>
+                 </a>
             </div>
             <h2 style={{ color: "#7523CC" }} className="title">
               skill Test
