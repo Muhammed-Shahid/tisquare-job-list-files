@@ -33,41 +33,53 @@ function ProductsPage() {
           <div className="skills-externalJobs-wrapper">
             <div className="externalJobs">
               <h2>Other Daily Job Opportunities</h2>
-              <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing" download>
-                <button className="addBtn btn btn-primary">
-                29-09-2022
-                </button>
-                 </a>
-                    <br />
-                 <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
-                 <button className="addBtn btn btn-primary">
-                30-09-2022
-                </button>
-                 </a>
+              <a
+                href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"
+                download
+              >
+                <button className="addBtn btn btn-primary">29-09-2022</button>
+              </a>
+              <br />
+              <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
+                <button className="addBtn btn btn-primary">30-09-2022</button>
+              </a>
 
+              <br />
+
+              <a href="https://drive.google.com/file/d/1_V7Fz8Mj-Ew8l45tqq2EFi-EJB4vjMDs/view?usp=sharing">
+                <button className="addBtn btn btn-primary">01-10-2022</button>
+              </a>
             </div>
             <div className="skills-wrapper">
-           <h2>Test Your Skills And Win More Jobs !! </h2>
-          <a href="/skill_test"> <button className="addBtn btn btn-primary">
-                Take Your Typing Speed Test
-                </button> </a>
+              <h2>Test Your Skills And Win More Jobs !! </h2>
+              <a href="/skill_test">
+                {" "}
+                <button className="addBtn btn btn-primary">
+                  Take Your Typing Speed Test
+                </button>{" "}
+              </a>
             </div>
           </div>
         ) : (
           <div className="skills-mobile">
-                    <div className="externalJobs">
-                    <h2>Other Daily Job Opportunities</h2>
-              <a href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"  download>
-                <button className="addBtn btn btn-primary">
-                29-09-2022
-                </button>
-                 </a>
-                    <br />
-                 <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
-                 <button className="addBtn btn btn-primary">
-                 30-09-2022
-                </button>
-                 </a>
+            <div className="externalJobs">
+              <h2>Other Daily Job Opportunities</h2>
+              <a
+                href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"
+                download
+              >
+                <button className="addBtn btn btn-primary">29-09-2022</button>
+              </a>
+              <br />
+              <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
+                <button className="addBtn btn btn-primary">30-09-2022</button>
+              </a>
+
+              <br />
+
+              <a href="https://drive.google.com/file/d/1_V7Fz8Mj-Ew8l45tqq2EFi-EJB4vjMDs/view?usp=sharing">
+                <button className="addBtn btn btn-primary">01-10-2022</button>
+              </a>
             </div>
             <h2 style={{ color: "#7523CC" }} className="title">
               skill Test
@@ -82,7 +94,7 @@ function ProductsPage() {
           </div>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </React.Fragment>
   );
 }
