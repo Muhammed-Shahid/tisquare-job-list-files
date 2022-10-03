@@ -80,7 +80,7 @@ function NavPrimary() {
       <div className="navContainer" style={navContainerStyle}>
         {dimensions.width > 851 ? (
           <nav className="navbar">
-           <a href="/"><div style={navLinksStyle} className="logo">
+           <a href="/ -"><div style={navLinksStyle} className="logo">
               Tri<span className="fed">Square</span>
             </div> </a> 
 

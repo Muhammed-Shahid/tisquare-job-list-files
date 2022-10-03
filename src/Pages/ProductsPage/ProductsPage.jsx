@@ -49,6 +49,10 @@ function ProductsPage() {
               <a href="https://drive.google.com/file/d/1_V7Fz8Mj-Ew8l45tqq2EFi-EJB4vjMDs/view?usp=sharing">
                 <button className="addBtn btn btn-primary">01-10-2022</button>
               </a>
+
+              <a href="https://drive.google.com/file/d/1na-w3KdNftQfmB-rg1v7bWUQKMnmS7n8/view?usp=sharing">
+                <button className="addBtn btn btn-primary">03-10-2022</button>
+              </a>
             </div>
             <div className="skills-wrapper">
               <h2>Test Your Skills And Win More Jobs !! </h2>
@@ -79,6 +83,10 @@ function ProductsPage() {
 
               <a href="https://drive.google.com/file/d/1_V7Fz8Mj-Ew8l45tqq2EFi-EJB4vjMDs/view?usp=sharing">
                 <button className="addBtn btn btn-primary">01-10-2022</button>
+              </a>
+
+              <a href="https://drive.google.com/file/d/1na-w3KdNftQfmB-rg1v7bWUQKMnmS7n8/view?usp=sharing">
+                <button className="addBtn btn btn-primary">03-10-2022</button>
               </a>
             </div>
             <h2 style={{ color: "#7523CC" }} className="title">
