@@ -33,27 +33,33 @@ function ProductsPage() {
           <div className="skills-externalJobs-wrapper">
             <div className="externalJobs">
               <h2>Other Daily Job Opportunities</h2>
-              <a
-                href="https://drive.google.com/file/d/1z0qzL7BZOrtEYaPPNyrp2U1T2VLuq0KV/view?usp=sharing"
-                download
-              >
-                <button className="addBtn btn btn-primary">29-09-2022</button>
-              </a>
-              <br />
-              <a href="https://drive.google.com/file/d/1JErMB_3Xv6VlrPefT_V51JPjvW3Z2V0E/view?usp=sharing">
-                <button className="addBtn btn btn-primary">30-09-2022</button>
-              </a>
-
-              <br />
-
-              <a href="https://drive.google.com/file/d/1_V7Fz8Mj-Ew8l45tqq2EFi-EJB4vjMDs/view?usp=sharing">
-                <button className="addBtn btn btn-primary">01-10-2022</button>
-              </a>
-               <br />
               <a href="https://drive.google.com/file/d/1na-w3KdNftQfmB-rg1v7bWUQKMnmS7n8/view?usp=sharing">
                 <button className="addBtn btn btn-primary">03-10-2022</button>
               </a>
 
+              <br />
+
+              <a href="https://drive.google.com/file/d/19W8FsXaCI-rJNoDe5WA9kg8i_ZtQVKNo/view?usp=sharing">
+                <button className="addBtn btn btn-primary">04-10-2022</button>
+              </a>
+
+             < br />
+
+              <a href="https://drive.google.com/file/d/1HTWdo5Aqr97AmBnhf10MoScCxobKzXea/view?usp=sharing">
+                <button className="addBtn btn btn-primary">06-10-2022</button>
+              </a>
+               <br />
+
+               <a href="https://drive.google.com/file/d/1VreZdBtQByJqm679jrTRSUWYjQ0-wiOS/view?usp=sharing">
+                <button className="addBtn btn btn-primary">07-10-2022</button>
+              </a>
+
+              <br />
+
+              
+              <a href="https://drive.google.com/file/d/1jRK5QNmEDbh9HwXHAq642QPv7TRXZ1Z0/view?usp=sharing">
+                <button className="addBtn btn btn-primary">08-10-2022</button>
+              </a>
               <br />
 
               <a href="https://drive.google.com/file/d/19W8FsXaCI-rJNoDe5WA9kg8i_ZtQVKNo/view?usp=sharing">
