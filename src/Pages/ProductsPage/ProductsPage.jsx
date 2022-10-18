@@ -33,34 +33,21 @@ function ProductsPage() {
           <div className="skills-externalJobs-wrapper">
             <div className="externalJobs">
               <h2>Other Daily Job Opportunities</h2>
-              <a href="https://drive.google.com/file/d/1na-w3KdNftQfmB-rg1v7bWUQKMnmS7n8/view?usp=sharing">
-                <button className="addBtn btn btn-primary">03-10-2022</button>
+              <br />
+
+              <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
+                <button className="addBtn btn btn-primary">16-10-2022</button>
               </a>
 
               <br />
 
-              <a href="https://drive.google.com/file/d/19W8FsXaCI-rJNoDe5WA9kg8i_ZtQVKNo/view?usp=sharing">
-                <button className="addBtn btn btn-primary">04-10-2022</button>
+              <a href="https://drive.google.com/file/d/1WY2YP92q0NAmVubdyvpxQDZc1Zznfyhf/view?usp=sharing">
+                <button className="addBtn btn btn-primary">17-10-2022</button>
               </a>
 
              < br />
 
-              <a href="https://drive.google.com/file/d/1HTWdo5Aqr97AmBnhf10MoScCxobKzXea/view?usp=sharing">
-                <button className="addBtn btn btn-primary">06-10-2022</button>
-              </a>
-               <br />
-
-               <a href="https://drive.google.com/file/d/1VreZdBtQByJqm679jrTRSUWYjQ0-wiOS/view?usp=sharing">
-                <button className="addBtn btn btn-primary">07-10-2022</button>
-              </a>
-
-              <br />
-
-              
-              <a href="https://drive.google.com/file/d/1jRK5QNmEDbh9HwXHAq642QPv7TRXZ1Z0/view?usp=sharing">
-                <button className="addBtn btn btn-primary">08-10-2022</button>
-              </a>
-              <br />
+          
 
             
             </div>
@@ -80,35 +67,20 @@ function ProductsPage() {
               <h2>Other Daily Job Opportunities</h2>
 
               <br />
-
-           
-              <a href="https://drive.google.com/file/d/1na-w3KdNftQfmB-rg1v7bWUQKMnmS7n8/view?usp=sharing">
-                <button className="addBtn btn btn-primary">03-10-2022</button>
+              <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
+                <button className="addBtn btn btn-primary">16-10-2022</button>
               </a>
 
               <br />
 
-              <a href="https://drive.google.com/file/d/19W8FsXaCI-rJNoDe5WA9kg8i_ZtQVKNo/view?usp=sharing">
-                <button className="addBtn btn btn-primary">04-10-2022</button>
+              <a href="https://drive.google.com/file/d/1WY2YP92q0NAmVubdyvpxQDZc1Zznfyhf/view?usp=sharing">
+                <button className="addBtn btn btn-primary">17-10-2022</button>
               </a>
 
              < br />
+          
 
-              <a href="https://drive.google.com/file/d/1HTWdo5Aqr97AmBnhf10MoScCxobKzXea/view?usp=sharing">
-                <button className="addBtn btn btn-primary">06-10-2022</button>
-              </a>
-               <br />
-
-               <a href="https://drive.google.com/file/d/1VreZdBtQByJqm679jrTRSUWYjQ0-wiOS/view?usp=sharing">
-                <button className="addBtn btn btn-primary">07-10-2022</button>
-              </a>
-
-              <br />
-
-              
-              <a href="https://drive.google.com/file/d/1jRK5QNmEDbh9HwXHAq642QPv7TRXZ1Z0/view?usp=sharing">
-                <button className="addBtn btn btn-primary">08-10-2022</button>
-              </a>
+       
             </div>
             <h2 style={{ color: "#7523CC" }} className="title">
               skill Test
