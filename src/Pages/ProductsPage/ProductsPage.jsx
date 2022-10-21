@@ -34,16 +34,30 @@ function ProductsPage() {
             <div className="externalJobs">
               <h2>Other Daily Job Opportunities</h2>
               <br />
-
               <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
-                <button className="addBtn btn btn-primary">16-10-2022</button>
+                <button className="addBtn btn btn-primary">17-10-2022</button>
               </a>
 
               <br />
 
-              <a href="https://drive.google.com/file/d/1WY2YP92q0NAmVubdyvpxQDZc1Zznfyhf/view?usp=sharing">
-                <button className="addBtn btn btn-primary">17-10-2022</button>
+              <a href="https://drive.google.com/file/d/1E_mw-85QJaRNufjpWvMic4ZwixA1mtdW/view?usp=sharing">
+                <button className="addBtn btn btn-primary">18-10-2022</button>
               </a>
+
+              <a href="https://drive.google.com/file/d/1z8JPmi7Ill9o-VFAP_5qlxKlUBkoeeTO/view?usp=sharing">
+                <button className="addBtn btn btn-primary">19-10-2022</button>
+              </a>
+
+              <br />
+
+              <a href="https://drive.google.com/file/d/11xPKnuw-e1Ldp74iSWwmlDHXnLlK3iCf/view?usp=sharing">
+                <button className="addBtn btn btn-primary">20-10-2022</button>
+              </a>
+
+              <a href="https://drive.google.com/file/d/1XT49oCcb-g33WUfiYUeKaFSRchhnQ_5J/view?usp=sharing">
+                <button className="addBtn btn btn-primary">21-10-2022</button>
+              </a>
+
 
              < br />
 
@@ -68,13 +82,27 @@ function ProductsPage() {
 
               <br />
               <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
-                <button className="addBtn btn btn-primary">16-10-2022</button>
+                <button className="addBtn btn btn-primary">17-10-2022</button>
               </a>
 
               <br />
 
-              <a href="https://drive.google.com/file/d/1WY2YP92q0NAmVubdyvpxQDZc1Zznfyhf/view?usp=sharing">
-                <button className="addBtn btn btn-primary">17-10-2022</button>
+              <a href="https://drive.google.com/file/d/1E_mw-85QJaRNufjpWvMic4ZwixA1mtdW/view?usp=sharing">
+                <button className="addBtn btn btn-primary">18-10-2022</button>
+              </a>
+
+              <a href="https://drive.google.com/file/d/1z8JPmi7Ill9o-VFAP_5qlxKlUBkoeeTO/view?usp=sharing">
+                <button className="addBtn btn btn-primary">19-10-2022</button>
+              </a>
+
+              <br />
+
+              <a href="https://drive.google.com/file/d/11xPKnuw-e1Ldp74iSWwmlDHXnLlK3iCf/view?usp=sharing">
+                <button className="addBtn btn btn-primary">20-10-2022</button>
+              </a>
+
+              <a href="https://drive.google.com/file/d/1XT49oCcb-g33WUfiYUeKaFSRchhnQ_5J/view?usp=sharing">
+                <button className="addBtn btn btn-primary">21-10-2022</button>
               </a>
 
              < br />
