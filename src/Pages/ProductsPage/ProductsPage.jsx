@@ -58,6 +58,9 @@ function ProductsPage() {
                 <button className="addBtn btn btn-primary">21-10-2022</button>
               </a>
 
+              <a href="https://drive.google.com/file/d/13Y8TjP5Zg162H_tUM-4scjgaYVS63wQD/view?usp=sharing">
+                <button className="addBtn btn btn-primary">22-10-2022</button>
+              </a>
 
              < br />
 
@@ -101,8 +104,14 @@ function ProductsPage() {
                 <button className="addBtn btn btn-primary">20-10-2022</button>
               </a>
 
+              
+
               <a href="https://drive.google.com/file/d/1XT49oCcb-g33WUfiYUeKaFSRchhnQ_5J/view?usp=sharing">
                 <button className="addBtn btn btn-primary">21-10-2022</button>
+              </a>
+
+              <a href="https://drive.google.com/file/d/13Y8TjP5Zg162H_tUM-4scjgaYVS63wQD/view?usp=sharing">
+                <button className="addBtn btn btn-primary">22-10-2022</button>
               </a>
 
              < br />
