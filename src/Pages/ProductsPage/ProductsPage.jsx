@@ -34,15 +34,8 @@ function ProductsPage() {
             <div className="externalJobs">
               <h2>Other Daily Job Opportunities</h2>
               <br />
-              <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
-                <button className="addBtn btn btn-primary">17-10-2022</button>
-              </a>
+           
 
-              <br />
-
-              <a href="https://drive.google.com/file/d/1E_mw-85QJaRNufjpWvMic4ZwixA1mtdW/view?usp=sharing">
-                <button className="addBtn btn btn-primary">18-10-2022</button>
-              </a>
 
               <a href="https://drive.google.com/file/d/1z8JPmi7Ill9o-VFAP_5qlxKlUBkoeeTO/view?usp=sharing">
                 <button className="addBtn btn btn-primary">19-10-2022</button>
@@ -60,6 +53,11 @@ function ProductsPage() {
 
               <a href="https://drive.google.com/file/d/13Y8TjP5Zg162H_tUM-4scjgaYVS63wQD/view?usp=sharing">
                 <button className="addBtn btn btn-primary">22-10-2022</button>
+              </a>
+
+              
+              <a href="https://drive.google.com/file/d/1LLcsNeg_Bg7PRZ8RQv-xje6BxMt3Defv/view?usp=sharing">
+                <button className="addBtn btn btn-primary">25-10-2022</button>
               </a>
 
              < br />
@@ -84,15 +82,7 @@ function ProductsPage() {
               <h2>Other Daily Job Opportunities</h2>
 
               <br />
-              <a href="https://drive.google.com/file/d/1U9g3gT_22Lfrbk4Doqk4BRdond0J7WK3/view?usp=sharing">
-                <button className="addBtn btn btn-primary">17-10-2022</button>
-              </a>
-
-              <br />
-
-              <a href="https://drive.google.com/file/d/1E_mw-85QJaRNufjpWvMic4ZwixA1mtdW/view?usp=sharing">
-                <button className="addBtn btn btn-primary">18-10-2022</button>
-              </a>
+       
 
               <a href="https://drive.google.com/file/d/1z8JPmi7Ill9o-VFAP_5qlxKlUBkoeeTO/view?usp=sharing">
                 <button className="addBtn btn btn-primary">19-10-2022</button>
@@ -112,6 +102,12 @@ function ProductsPage() {
 
               <a href="https://drive.google.com/file/d/13Y8TjP5Zg162H_tUM-4scjgaYVS63wQD/view?usp=sharing">
                 <button className="addBtn btn btn-primary">22-10-2022</button>
+              </a>
+
+              
+              
+              <a href="https://drive.google.com/file/d/1LLcsNeg_Bg7PRZ8RQv-xje6BxMt3Defv/view?usp=sharing">
+                <button className="addBtn btn btn-primary">25-10-2022</button>
               </a>
 
              < br />
