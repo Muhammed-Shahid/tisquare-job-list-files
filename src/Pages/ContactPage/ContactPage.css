@@ -2,7 +2,7 @@
   color: #000;
   overflow-x: hidden;
   height: 100%;
-  background-image: url("/public/rail.webp");
+  background-image: url("/public/rail.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
